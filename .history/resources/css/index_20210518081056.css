@@ -22,8 +22,6 @@ h1, h2, h3 {
 }
 h1 {
     color: #B4A990;
-    text-shadow: 0px 5px 10px #3a372e;
-
 }
 h2 {
     padding: 1rem 0 0 0;
@@ -53,10 +51,6 @@ blockquote {
     font-size: .85rem;
     width: 500px; /* TODO media query */
 }
-blockquote em {
-    font-size: 1.25rem;
-    font-style: italic;
-}
 
 #main-header {
     margin: 15px 10px 0 10px;
@@ -75,7 +69,6 @@ blockquote em {
 }
 #image {
     max-width: 90%;
-    box-shadow: 0px 20px 50px #3a372e;
 }
 #img-caption {
     color: #A4A489;

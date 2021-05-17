@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    margin: 1rem .5rem 0 .5rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-items: center; */
+}
+
+#main-header {
+    margin: 1em 1em 0 1em;
+    border-radius: 15px 15px 0 0;
+    padding: 3em 0;
+    text-align: center;
+    background-color: gray;
+}
