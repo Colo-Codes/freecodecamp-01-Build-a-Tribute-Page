@@ -1,0 +1,221 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dashed blue; Debugging purposes */
+}
+body {
+    background-color: #686151;
+}
+main {
+    margin: 0 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-items: center; */
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+h1 {
+    color: #B4A990;
+    text-shadow: 0px 5px 10px #3a372e;
+
+}
+h2 {
+    padding: 1rem 0 0 0;
+    text-align: center;
+}
+h3 {
+    padding: 1rem 0 .5rem 0;
+    margin-left: 1rem;
+}
+p, blockquote, #img-caption {
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+p::first-line {
+    text-transform: uppercase;
+    text-indent: 5rem;
+}
+
+section {
+    background-color: #B4A990; /* Fallback */
+    background-image: linear-gradient(to bottom right, #B4A990, #a79568);
+}
+blockquote {
+    margin: 2rem auto;
+    font-size: .85rem;
+    width: 500px; /* TODO media query */
+}
+blockquote em {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+#main-header {
+    margin: 15px 10px 0 10px;
+    border: 5px double #B4A990;
+    border-radius: 15px 15px 0 0;
+    padding: 3em 0;
+    text-align: center;
+    background-color: #686151;
+    font-size: 1.5rem;
+}
+
+#img-div {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #686151;
+}
+#image {
+    max-width: 90%;
+    box-shadow: 0px 20px 50px #3a372e;
+}
+#img-caption {
+    color: #A4A489;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+#tribute-info {
+    margin: 10px auto 0 auto;
+    max-width: 700px;
+    padding: 0 10px;
+}
+
+aside {
+    /* max-width: 50%; TODO media query */
+    margin: 0 auto;
+    display: block;
+    background-color: #353129;
+    text-align: center;
+}
+aside img {
+    max-width: 50%;
+    margin: 15px auto;
+    border-style: solid;
+    border-width: 10px;
+    border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+    border-image: linear-gradient(to bottom right, #B4A990, #a79568) 1;
+}
+#main-footer {
+    clear: left;
+    display: block;
+    margin: 0 10px 15px 10px;
+    padding: 2em;
+    border: 2px solid #353129;
+    border-radius: 0 0 15px 15px;
+    background-color: #686151;
+    color: #B4A990;
+}
+/*********************************************************/
+/* 
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+     /*
+    font-size: 10px;
+  }
+  
+  body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack *//*
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  
+  #main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  } */
+  
